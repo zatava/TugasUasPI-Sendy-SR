@@ -1,0 +1,189 @@
+body {
+    background-color: #000000;
+    color: #fff;
+    font-family: Comic Sans MS, sans-serif;
+    text-align: center;
+    align-items: center;
+    }
+    .hero-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    }
+    .hero-content h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    }
+    .hero-content h1 span {
+    color: #aaa;
+    font-weight: Comic Sans MS;
+    }
+    .btn-custom {
+    background-color: #a8008c;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    }
+    .btn-custom:hover {
+    background-color: #d62839;
+    color: white;
+    }
+    .nav-link {
+    color: white !important;
+    }
+    
+    .hire-btn {
+    background-color: #000;
+    border: 1px solid white;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 15px;
+    }
+    .hire-btn:hover {
+    background-color: #a8008c;
+    color: white;
+    }
+    .hero-image img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+    }
+    /* Reset default styling */
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        font-family: Comic Sans MS, sans serif;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+      .table {
+        --bs-table-color: var(--bs-gray-600);
+        --bs-table-bg: var(--bs-gray-100);
+        --bs-table-border-color: transparent;
+        border-collapse: collapse;
+        align-items: center;
+      }
+      /* Education Section */
+section#education {
+  text-align: center;
+}
+section#education table {
+  margin: 0 auto; /* Pusatkan tabel secara horizontal */
+  border-collapse: collapse;
+  width: 80%; /* Sesuaikan lebar tabel */
+}
+section#education th, section#education td {
+  padding: 10px;
+  border: 1px solid #ccc; /* Sesuaikan warna border */
+  text-align: center; /* Pusatkan teks dalam tabel */
+}
+section#education h2 {
+  font-size: 28px; /* Ukuran font untuk heading */
+  margin-bottom: 10px; /* Tambahkan ruang di bawah heading */
+}
+
+section#education p {
+  font-size: 16px; /* Sesuaikan ukuran font deskripsi */
+  margin-bottom: 20px; /* Tambahkan ruang di bawah deskripsi */
+}
+      table, th, td {
+        border: 1px solid #ccc;
+        border-collapse: collapse;
+      }
+      th, td {
+        padding: 10px;
+        border: 1px solid white;
+      }
+      tr {
+        text-align: center;
+      }
+      .project-grid {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+      .project-card {
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 5px;
+        width: calc(33.333% - 20px);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      header a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+      }
+      header a:hover {
+        text-decoration: underline;
+      }
+      section {
+        padding: 20px;
+      }
+      .button {
+        background-color: #007BFF;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        display: inline-block;
+        margin-top: 10px;
+      }
+      .projects-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 20px;
+      }
+    
+      .project {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 20px;
+        text-align: center;
+        background-color: #f9f9f9;
+      }
+    
+      .project img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+    
+      .project h3 {
+        font-size: 1.2em;
+        margin-top: 10px;
+      }
+    
+      .project p {
+        font-size: 1em;
+        margin: 10px 0;
+      }
+    
+      .project a {
+        text-decoration: none;
+        color: #007BFF;
+        font-weight: bold;
+      }
+    
+      .project a:hover {
+        text-decoration: underline;
+      }
+      .project-card img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 15px;
+      }
+  
